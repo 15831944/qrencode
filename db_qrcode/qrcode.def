@@ -1,0 +1,5 @@
+LIBRARY	"db_qrcode"
+
+EXPORTS
+
+db_qrcode

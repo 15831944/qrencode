@@ -1,0 +1,6 @@
+LIBRARY	"QRencode"
+
+EXPORTS
+
+QRcode_encodeString
+QRcode_free

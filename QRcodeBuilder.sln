@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "QRcodeBuilder", "QRcodeBuilder\QRcodeBuilder.vcproj", "{88798984-E8F2-4BA2-BCBC-22F7286A1CB8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{61483E2E-7DAC-4FA2-AA83-D8E39A884710} = {61483E2E-7DAC-4FA2-AA83-D8E39A884710}
+		{4014AE5F-CA89-4F48-AAAC-33490DEA5303} = {4014AE5F-CA89-4F48-AAAC-33490DEA5303}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "QRencode", "QRencode\QRencode.vcproj", "{4014AE5F-CA89-4F48-AAAC-33490DEA5303}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "db_qrcode", "db_qrcode\db_qrcode.vcproj", "{61483E2E-7DAC-4FA2-AA83-D8E39A884710}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{88798984-E8F2-4BA2-BCBC-22F7286A1CB8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{88798984-E8F2-4BA2-BCBC-22F7286A1CB8}.Debug|Win32.Build.0 = Debug|Win32
+		{88798984-E8F2-4BA2-BCBC-22F7286A1CB8}.Release|Win32.ActiveCfg = Release|Win32
+		{88798984-E8F2-4BA2-BCBC-22F7286A1CB8}.Release|Win32.Build.0 = Release|Win32
+		{4014AE5F-CA89-4F48-AAAC-33490DEA5303}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4014AE5F-CA89-4F48-AAAC-33490DEA5303}.Debug|Win32.Build.0 = Debug|Win32
+		{4014AE5F-CA89-4F48-AAAC-33490DEA5303}.Release|Win32.ActiveCfg = Release|Win32
+		{4014AE5F-CA89-4F48-AAAC-33490DEA5303}.Release|Win32.Build.0 = Release|Win32
+		{61483E2E-7DAC-4FA2-AA83-D8E39A884710}.Debug|Win32.ActiveCfg = Debug|Win32
+		{61483E2E-7DAC-4FA2-AA83-D8E39A884710}.Debug|Win32.Build.0 = Debug|Win32
+		{61483E2E-7DAC-4FA2-AA83-D8E39A884710}.Release|Win32.ActiveCfg = Release|Win32
+		{61483E2E-7DAC-4FA2-AA83-D8E39A884710}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
